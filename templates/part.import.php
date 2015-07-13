@@ -44,7 +44,7 @@ $calendar_options = OCA\CalendarPlus\Calendar::allCalendars(OCP\USER::getUser())
 		}
 		$calendarChoose[] = array('id'=>'newcal', 'displayname'=>$l->t('create a new calendar'));
 		
-		print_unescaped(OCP\html_select_options($calendarChoose, $calendarChoose[0]['id'], array('value'=>'id', 'label'=>'displayname')));
+		print_unescaped(OCP\Template::html_select_options($calendarChoose, $calendarChoose[0]['id'], array('value'=>'id', 'label'=>'displayname')));
 		?>
 		</select>
 		<br><br>
