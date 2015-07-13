@@ -38,13 +38,13 @@ $calendar_options = OCA\CalendarPlus\Calendar::allCalendars(OCP\USER::getUser())
 			if(!$calendar_options[$i]['issubscribe'] && $calendar_options[$i]['id'] != 'birthday_'.OCP\USER::getUser()){	
 				$calendarChoose[]= array(
 						'id' => $calendar_options[$i]['id'],
-						'displayname' => OCP\Util::sanitizeHTML($calendar_options[$i]['displayname'])
+						'displayname' => $calendar_options[$i]['displayname']
 						);
 			}
 		}
 		$calendarChoose[] = array('id'=>'newcal', 'displayname'=>$l->t('create a new calendar'));
 		
-		print_unescaped(OCP\html_select_options($calendarChoose, $calendarChoose[0]['id'], array('value'=>'id', 'label'=>'displayname')));
+		print_unescaped(OCP\Template::html_select_options($calendarChoose, $calendarChoose[0]['id'], array('value'=>'id', 'label'=>'displayname')));
 		?>
 		</select>
 		<br><br>
