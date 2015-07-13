@@ -1092,7 +1092,7 @@ class EventController extends Controller {
                         $repeat['repeat_rules'] .= ';' . $attr . '=' . $val;
 						}
                 }
-                if ((string)$attr === 'COUNT' || (string)$attr !== 'UNTIL') {
+                if ((string)$attr === 'COUNT' || (string)$attr === 'UNTIL') {
                     $rrulearr[$attr] = $val;
                 }
             }
