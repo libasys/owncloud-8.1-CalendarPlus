@@ -1065,7 +1065,9 @@ cursor:pointer;
    overflow:hidden;
 	line-height:30px;
 }
-
+#leftcontent #subscriptionList li.calListen span.descr{
+	width: 120px;
+}
 
 #categoryCalendarList li{
 	padding:0;
