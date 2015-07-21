@@ -34,7 +34,7 @@
 	z-index: 300;
 	/* account for margin-bottom in files list */
 	margin-top: 0px;
-	
+
 }
 .birthday-event{
 	background-color:red;
@@ -98,8 +98,8 @@
 }
 .ui-dialog .ui-dialog-buttonpane{
 	background:#fff;
-	margin-top:0;	
-	
+	margin-top:0;
+
 }
 
 #dropdown{
@@ -107,7 +107,7 @@
 	right:0;
 	top:45px;
 	height:100%;
-	
+
 	max-width:350px;
 	color:#555;
 	border-radius:none;
@@ -152,7 +152,7 @@
 
 #dropdown a.icon-info{
 	float:right;
-	
+
 	display:inline;
 	width:20px;
 	height:26px;
@@ -180,7 +180,7 @@
 	color:#666666;
 	font-weight:normal;
 	font-size:12px;
-	
+
 }
 #calendarSettingsContainer h2{
 	font-size:13px;
@@ -242,7 +242,7 @@
 
 #event i.ioc{
 	font-size:20px;
-	
+
 }
 .msg.success {
 	color: #fff;
@@ -257,7 +257,7 @@
 #event.show-event{
 	color:#555555;
 	font-size:13px;
-	
+
 }
 
 
@@ -342,9 +342,9 @@ span.colorCal-list{
 	position:relative;
 }
 #calendarnavActive.button-info, #tasknavActive.button-info, #controls .view button.active, .view.navigation-left button.active{
-	
+
 	background-color:#fff;
-	
+
 }
 
 #errorbox{
@@ -404,9 +404,9 @@ margin-right:auto;
 	font-weight:100;
 	margin-top:10px;
 	line-height:210px;
-	
+
 	color:#00ACD3;
-	
+
 }
 #datepickerDayMore{
 	position:relative;
@@ -416,7 +416,7 @@ margin-right:auto;
 	margin-left:auto;
 	margin-right:auto;
 	min-width:53%;
-	
+
 }
 .datepickerDayMoreWidth{
 	width:96%;
@@ -430,13 +430,13 @@ margin-right:auto;
 	width:98%;
 	height:300px;
 	overflow:auto;
-	
-	
+
+
 }
 .moveTopDayListMore{
 	margin-top:20px;
 	left:5px;
-	
+
 }
 
 #leftcontent{
@@ -449,7 +449,7 @@ margin-right:auto;
 	background:#fff;
 	overflow:auto;
 	height:90%;
-	
+
 }
 #rightCalendarNav{
 	width:220px;
@@ -461,8 +461,8 @@ margin-right:auto;
 	position:fixed;
 	float:left;
 	height:87%;
-	
-}	
+
+}
 
 #app-navigation-toggle{
 	background-color:transparent;
@@ -471,16 +471,15 @@ margin-right:auto;
 	margin-top:8px;
 }
 #app-navigation{
-	width:220px;
 	border:none;
 	margin:0;
 	padding:0;
 	margin-right:5px;
-	margin-left:5px;	
+	margin-left:5px;
 }
 #app-navigation,#app-navigation > ul > li{
 	background-color: #fff;
-	
+
 }
 #app-navigation li > a{
 	display: block;
@@ -527,9 +526,9 @@ margin-right:auto;
 	position:relative;
 	float:left;
 	width:16%;
-	
+
 	display:block;
-	
+
 }
 
 .centerControls{
@@ -538,7 +537,7 @@ margin-right:auto;
 	width:68%;
 	text-align:center;
 	display:block;
-	
+
 }
 
 .centerControls .view{
@@ -547,7 +546,7 @@ margin-right:auto;
 	position:relative;
 	float:none;
 	display:inline-block;
-	
+
 }
 
 .rightControls{
@@ -558,7 +557,7 @@ margin-right:auto;
 	display:block;
 	padding-right:5px;
 	text-align:right;
-	
+
 }
 .center {text-align: center;}
 .dateinfo {height: 20px;width: 100%; overflow: hidden; margin-top: 0; padding: 0; font-size: 12px;background: #F7F7F7;}
@@ -587,7 +586,7 @@ button.category{margin:0 3px;}
 .calendar-colorpicker-color.active{border:2px solid black;}
 
 #event {
-	position:relative; 
+	position:relative;
 	padding: 0;
 	margin: 0;
 	overflow:hidden;
@@ -599,7 +598,7 @@ button.category{margin:0 3px;}
 .sharedby li:hover > .shareactions > * { display: inline-block; }
  */
 .fc-event {
-	opacity:0.9;	
+	opacity:0.9;
 }
 
 
@@ -608,7 +607,7 @@ button.category{margin:0 3px;}
 	height: 16px      !important;
 	line-height: 16px !important;
 	font-size: 16px  !important;
-	
+
 }
 
 .fc-state-default.fc-corner-left { /* non-theme */
@@ -620,7 +619,7 @@ button.category{margin:0 3px;}
 	border-top-right-radius: 8px;
 	border-bottom-right-radius:8px;
 	}
-	
+
 .fc-event.fc-event-vert{
 	border-radius: 4px;
 }
@@ -628,24 +627,24 @@ button.category{margin:0 3px;}
 .fc-rtl .fc-event-hori.fc-event-start{
 	border-radius: 4px;
 }
-	
+
 .fc-view-list{
 	overflow:auto;
 	height:570px;
-}	
+}
 .fc-list-table
 {
     margin-top:-3px;
-    
+
     vertical-align: top;
     width: 98%;
-    
+
 }
 .fc-list-table tr:hover
 {
-    
+
    background-color:#F4F4F4 ;
-}	
+}
 
 .fc-list-date
 {
@@ -654,13 +653,13 @@ button.category{margin:0 3px;}
     height:30px;
     line-height:30px;
    border-top:1px solid #E7E7DE;
-  
+
 }
 .fc-list-time
 {
     text-align: center;
     white-space: nowrap;
-    
+
     width: 1%;
 }
 
@@ -673,9 +672,9 @@ button.category{margin:0 3px;}
      width:100%;
      border:none;
      margin:1px;
-    
+
      background-color:transparent;
-    
+
 }
 .fc-list-event .list-icon{
 	float:left;
@@ -702,7 +701,7 @@ button.category{margin:0 3px;}
      width:auto;
      display:block;
      float:left;
-     
+
 }
 .fc-list-event .categories{
 	 float:right;
@@ -744,7 +743,7 @@ margin-bottom:4px;
 
 #fullcalendar{
 	overflow: auto;
-	
+
 }
 
 .ui-timepicker-hour-cell *, .ui-timepicker-minute-cell *{
@@ -760,7 +759,7 @@ margin-bottom:4px;
 	background:transparent;
 	font-weight:normal;
 color:#999;
-font-size:12px;	
+font-size:12px;
 }
 
 #leftcontent h3{
@@ -783,14 +782,14 @@ table.fc-header,.fc-header-title h2,table.fc-header tr:hover,.fc-header-title h2
 	width:100%;
 	clear:both;
 	text-align:center;
-	
+
 	height:30px;
 	line-height:30px;
-	
-	
+
+
 }
 .fc-header-title h2{
-	
+
 	display:block;
 	float:left;
 }
@@ -798,16 +797,16 @@ table.fc-header,.fc-header-title h2,table.fc-header tr:hover,.fc-header-title h2
 	width: 0%;
 
 	}
-	
+
 .fc-header-center {
 	text-align: center;
 	width:98%;
 
 	}
-	
+
 .fc-header-right {
 	width: 0%;
-	
+
 	}
 
 
@@ -824,7 +823,7 @@ table.fc-header,.fc-header-title h2,table.fc-header tr:hover,.fc-header-title h2
 	background:#fff;
 	border:none;
 	box-shadow: 0px 0px 5px #ccc;
-	
+
 	max-width:300px
 }
 
@@ -837,7 +836,7 @@ table.fc-header,.fc-header-title h2,table.fc-header tr:hover,.fc-header-title h2
 	height:24px;
 	line-height:24px;
 	border-radius:0;
-	
+
 }
 
 .ui-datepicker-title{
@@ -846,7 +845,7 @@ table.fc-header,.fc-header-title h2,table.fc-header tr:hover,.fc-header-title h2
 	margin:0;
 	height:24px;
 	line-height:24px;
-	
+
 }
 
 .ui-datepicker-calendar th{
@@ -904,7 +903,7 @@ table.fc-header,.fc-header-title h2,table.fc-header tr:hover,.fc-header-title h2
 .ui-icon-circle-triangle-w,
 .ui-icon-circle-triangle-e{
 	background:none;
-	width: 0; 
+	width: 0;
 	height: 0;
 	border-top: 10px solid transparent;
 	border-bottom: 10px solid transparent;
@@ -914,7 +913,7 @@ table.fc-header,.fc-header-title h2,table.fc-header tr:hover,.fc-header-title h2
 	border-right: 10px solid #ccc;
 	border-left:none;
 	background-position: 16px 16px;
-	
+
 }
 .ui-icon-circle-triangle-w:hover{
 	border-right: 10px solid #000;
@@ -972,7 +971,7 @@ table.fc-header,.fc-header-title h2,table.fc-header tr:hover,.fc-header-title h2
 	padding:0;
 	margin:0;
 	margin-top:5px;
-	
+
 }
 #datepickerNav .ui-datepicker{
 	box-shadow:none;
@@ -980,7 +979,7 @@ table.fc-header,.fc-header-title h2,table.fc-header tr:hover,.fc-header-title h2
 
 table.fc-header tr:hover{
 	background-color:none;
-	
+
 }
 
 
@@ -994,7 +993,7 @@ table.fc-header tr:hover{
 	font-size:2px;
 	border-radius:3px;
 	-webkit-border-radius:3px;
-	
+
 	float:left;
 	margin-top:6px;
 	margin-right:5px;
@@ -1004,7 +1003,7 @@ table.fc-header tr:hover{
 .tipsy-event .tag,.tag{
 	position:relative;
 	border-radius:6px;
-	
+
 	display:inline-block;
 width:12px;
 height:12px;
@@ -1019,7 +1018,7 @@ span.location{
 	background-color:#FCEFA1;
 	color:#333;
 	margin:2px;
-	
+
 	line-height:24px;
 	border-radius:0.4em;
 	display:inline-block;
@@ -1027,18 +1026,18 @@ border:1px solid transparent;
 padding:0 0.3em;
 cursor:pointer;
 	}
-	
+
 .fc-list-today{
 	color:red;
-}	
+}
 
 
 /**CALENDARLIST**/
 #leftcontentInner{
 	top:0;
 	position:relative;
-	
-}	
+
+}
 .addTopLeftContentInner{
 	/*margin-top:3.5em;*/
 }
@@ -1053,19 +1052,19 @@ cursor:pointer;
 	padding-left:5px;
 	border-bottom:1px solid #EEEEEE;
 	color:#313131;
-	
+
 }
 #leftcontent li.calListen span.descr{
-	
+
 	width:120px;
 	display:block;
 	float:left;
 	white-space:nowrap;
-	 text-overflow: ellipsis; 
+	 text-overflow: ellipsis;
    -o-text-overflow: ellipsis;
    overflow:hidden;
 	line-height:30px;
-	
+
 }
 
 
@@ -1114,7 +1113,7 @@ ul#taskList{
 	padding:0;
 	margin-left:10px;
 	width:205px;
-	
+
 }
 
 .headTasks{
@@ -1127,7 +1126,7 @@ ul#taskList{
 	clear:both;
 	color:#999;
 }
-	
+
 li.taskListRow{
 	display:block;
 	position:relative;
@@ -1137,7 +1136,7 @@ li.taskListRow{
 	line-height:20px;
 	color:#313131;
 	font-size:12px;
-}	
+}
 li.taskListRow .addImages{
 	float:left;
 	position:relative;
@@ -1152,7 +1151,7 @@ li.taskListRow .addImages i.ioc,li.taskListRow .addImagesNoDate i.ioc{
 }
 
 li.taskListRow .description{
-	
+
 	position:relative;
 	float:left;
 	display:block;
@@ -1191,7 +1190,7 @@ max-width: 350px;
 
 
 
- 
+
 
 #event tr:hover{
 	background-color:transparent;
@@ -1199,11 +1198,11 @@ max-width: 350px;
 
  #event .share{
 	opacity: 1.0;
-	width: 30px; 
+	width: 30px;
 	height: 30px;
 	background-size:24px 24px;
 }
- 
+
 #dayview{
 	position:relative;
 	display:none;
@@ -1339,7 +1338,7 @@ button.ui-multiselect{
 }
 
 #sRepeatSelect.combobox .arrow-down,#sReminderSelect.combobox .arrow-down{
-	
+
 	position: absolute;
 	right:7px;
 	background:none;
@@ -1366,7 +1365,7 @@ button.ui-multiselect{
 	height:20px;
 	line-height:20px;
 	width:133px;
-	
+
 }
 #event select{
 	background:#fff;
@@ -1375,7 +1374,7 @@ button.ui-multiselect{
 	height:24px;
 }
 #rruleoutput, #reminderoutput{
-	
+
 	display:block;
 	width:210px;
 }
@@ -1417,11 +1416,11 @@ background: #999;
 	display:block;
 	width:210px;
 	padding:8px 8px;
-	
+
 	border-radius:8px;
 	box-shadow:0px 0px 6px #333;
 	z-index:500;
-	
+
 }
 
 /**Styling Checkbox radio ***/
@@ -1559,7 +1558,7 @@ label {
 	height: 24px;
 	left: 4px;
 	top: 4px;
-}	
+}
 
 
 
@@ -1583,13 +1582,13 @@ label {
 	list-style: none;
 }
 .dropHover{
-	
+
 	font-weight:normal;
 }
 .activeHover{
 	color:#C24733;
 	font-size:14px;
-	
+
 }
 
 .share { cursor: pointer; width: 20px; height: 20px; margin: 0; float: left; position:relative; opacity: 0.1; }
@@ -1600,7 +1599,7 @@ label {
 
 
 .isBirthday{
-	
+
 	color:#333;
 }
 
@@ -1626,24 +1625,24 @@ label {
 	}
 .fc-agenda-slots tr.fc-minor td {
 	border-top-style: dotted;
-	}	
+	}
 
 .addPaddingButtons{
 	padding:0;
 	padding:1px 3px;
 	background:red;
-}	
+}
 
 #eventsList{
 	width:95%;
 	margin-left:5px;
 }
 #eventsList li{
-	
+
 	line-height:28px;
 }
 .eventsDate{
-	
+
 	font-size:14px;
 	font-weight:normal;
 	color:#818181;
@@ -1692,7 +1691,7 @@ label {
 	border:none;
 	margin-right:5px;
 	top:2px;
-	
+
 }
 
 #datepickerDayMore .ui-datepicker-calendar td a.eventInfo{
@@ -1722,14 +1721,14 @@ label {
 	padding-right:10px;
 	color:#616576;
 	overflow:auto;
-	
-	
+
+
 }
 
 #accordion .ioc-checkmark{
 	color:#008000;
 	font-size:14px;
-	
+
 }
 #accordion #lRrule,#accordion #lReminder{
 	color:#0098E4;
