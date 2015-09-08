@@ -19,7 +19,7 @@
  * License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
- 
+
 namespace OCA\CalendarPlus\AppInfo;
 
 $app = new Application();
@@ -33,7 +33,7 @@ $navigationEntry = function () use ($c) {
 		'order' => 1,
 		'name' => $c->query('L10N')->t('Calendar+'),
 		'href' => $c->query('URLGenerator')->linkToRoute($c->getAppName().'.page.index'),
-		'icon' => $c->query('URLGenerator')->imagePath($c->getAppName(), 'calendar.svg'),
+		'icon' => $c->query('URLGenerator')->imagePath($c->getAppName(), 'calendarplus.svg'),
 	];
 };
 $c->getServer()->getNavigationManager()->add($navigationEntry);
@@ -55,7 +55,7 @@ if(\OC::$server->getAppManager()->isEnabledForUser('activity')){
 if (\OCP\User::isLoggedIn() && !\OCP\App::isEnabled('calendar')) {
 	$request = $c->query('Request');
 	if (isset($request->server['REQUEST_URI'])) {
-			
+
 		$url = $request->server['REQUEST_URI'];
 		if (preg_match('%index.php/apps/files(/.*)?%', $url)	|| preg_match('%index.php/s/(/.*)?%', $url)) {
 			\OCP\Util::addScript($appName,'loaderimport');
