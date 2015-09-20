@@ -54,7 +54,7 @@ class ExportController extends Controller {
 	/**
 	*@PublicPage
 	 * @NoCSRFRequired
-	 * 
+	 * @CORS
 	 */
 	public function exportEvents(){
 		$token = $this -> params('t');	
