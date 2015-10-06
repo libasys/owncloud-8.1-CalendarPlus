@@ -503,7 +503,7 @@ class CalendarController extends Controller {
 			$getProtocol = explode('://', $calendar['externuri']);
 			$protocol = $getProtocol[0];
 	
-			$opts = array($protocol => array('method' => 'POST', 'header' => "Content-Type: text/calendar\r\n", 'timeout' => 60));
+			$opts = array($protocol => array('method' => 'GET', 'header' => "Content-Type: text/calendar\r\n", 'timeout' => 60));
 	
 			$aMeta = $this -> stream_last_modified(trim($calendar['externuri']));
 			
@@ -515,7 +515,7 @@ class CalendarController extends Controller {
 				$import = new Import($file);
 				$import -> setUserID($this -> userId);
 				$import -> setTimeZone(CalendarApp::$tz);
-				//$import -> setOverwrite(false);
+				$import -> setOverwrite(true);
 				$import->setCheckModifiedDate(true);
 				$import->setImportFromUri(true);
 				$import -> setCalendarID($calendarid);
@@ -835,8 +835,8 @@ class CalendarController extends Controller {
 		$bAccess = false;
 		$modtime = '';
 		for ($j = 0; isset($meta['wrapper_data'][$j]); $j++) {
-			if (strstr(strtolower($meta['wrapper_data'][$j]), 'content-type')) {
-				$checkContentType = substr($meta['wrapper_data'][$j], 13);	
+			if (preg_match('/^ {0,}content-type {0,}:/i',$meta['wrapper_data'][$j])) {
+				$checkContentType = preg_replace('/.+?: {0,}/i','',$meta['wrapper_data'][$j]);
 				list($contentType,$charset) = explode(';',$checkContentType);
 				if(trim(strtolower($contentType)) === 'text/calendar'){
 					$bAccess = true;
