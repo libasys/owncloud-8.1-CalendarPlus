@@ -515,8 +515,8 @@ class CalendarController extends Controller {
 				$import = new Import($file);
 				$import -> setUserID($this -> userId);
 				$import -> setTimeZone(CalendarApp::$tz);
-				//$import -> setOverwrite(false);
-				$import->setCheckModifiedDate(true);
+				$import -> setOverwrite(true);
+				//$import -> setCheckModifiedDate(true);
 				$import->setImportFromUri(true);
 				$import -> setCalendarID($calendarid);
 				try {
